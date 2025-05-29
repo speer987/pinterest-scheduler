@@ -1,3 +1,6 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -39,4 +42,15 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.black-border {
+  border: 2px solid black;
+}
+
+@theme {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+  font-style: normal;
 }
