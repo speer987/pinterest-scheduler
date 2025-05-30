@@ -7,11 +7,18 @@
   font-family: "Taviraj";
   src: url(./fonts/Taviraj-Regular.ttf);
 }
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  src: url(./fonts/BarlowSemiCondensed-Regular.ttf);
+}
+
 @import "tailwindcss";
 
 @theme {  
   --font-scope: "Scope One", "sans-serif";
   --font-taviraj: "Taviraj", "sans-serif";
+  --font-condensed: "Barlow Semi Condensed", "sans-serif";
   --color-lg-500: oklch(0.9197 0.0721 135.24);
   --color-dg-500: oklch(0.3249 0.0883 150.55);
   --color-llg-500: oklch(98.6% 0.031 120.757);
