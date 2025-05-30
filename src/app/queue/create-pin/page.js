@@ -5,7 +5,9 @@ export default function CreatePinWithLink() {
       {/* <HeaderWithLinks selected={"create-pin"} /> */}
       <div className="pr-64 pl-64 py-10">
         <h1 className="text-4xl font-taviraj">Create Pin with Destination</h1>
-        <p className="font-taviraj">I'm creating pins for _____________.</p>
+        <p className="font-taviraj">
+          Currently Creating Pin For: ______________ Product Name
+        </p>
         <div className="flex flex-col gap-2">
           {/* <div className="gap-2"> */}
           <div className="flex gap-2">
