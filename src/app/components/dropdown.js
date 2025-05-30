@@ -3,9 +3,9 @@ import React, { useState } from "react";
 export default function Dropdown({ label }) {
   const [selected, setSelected] = useState("");
   return (
-    <div className="bg-gray-50 rounded-md flex flex-col m-2 p-2 pt-1 border-1 border-gray-300 gap-1">
+    <div className="bg-gray-50 rounded-md flex flex-col p-2 border-1 border-gray-300 gap-1">
       <label className="font-condensed uppercase text-sm tracking-wide">
-        Pin Destination
+        {label}
       </label>
       <div className="flex flex-row">
         <select

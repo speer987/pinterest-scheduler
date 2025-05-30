@@ -18,7 +18,7 @@ export default function HeaderWithLinks() {
             Add Pin Destination
           </li>
           <li className="border-y-2 border-x-1 hover:bg-dg-500 hover:text-white transition ease-in-out px-6 py-2 border-dg-500">
-            Create Pin
+            Create Pin Without Destination
           </li>
           <li className="border-y-2 border-x-1 hover:bg-dg-500 hover:text-white transition ease-in-out px-6 py-2 rounded-r-full border-dg-500">
             About

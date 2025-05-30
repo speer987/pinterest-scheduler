@@ -1,10 +1,5 @@
-import { HeaderWithLinks, Textbox, Dropdown } from "../components";
-import "../globals.css";
-
-// This is the create pin page when you don't have a destination link for the pin. It can be accessed
-// through the header links. But only the create pin with links can be accessed through the queue page.
-
-export default function PinCreationPage() {
+import { Textbox, Dropdown } from "@/app/components";
+export default function CreatePinWithLink() {
   return (
     <div>
       {/* <HeaderWithLinks selected={"create-pin"} /> */}
@@ -53,7 +48,10 @@ export default function PinCreationPage() {
             </div>
           </div>
           <div className="flex flex-row w-full gap-2">
-            <div className="w-full">
+            <div className="w-1/2">
+              <Dropdown label={"Pin Destination"} />
+            </div>
+            <div className="w-1/2">
               <Dropdown label={"Board Name"} />
             </div>
           </div>
