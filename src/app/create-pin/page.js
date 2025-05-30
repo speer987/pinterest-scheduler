@@ -1,5 +1,4 @@
-import HeaderWithLinks from "../components/header-w-links";
-import Textbox from "../components/textbox";
+import { HeaderWithLinks, Textbox, Dropdown } from "../components";
 import "../globals.css";
 
 export default function PinCreationPage() {
@@ -47,21 +46,20 @@ export default function PinCreationPage() {
             />
           </div>
         </div>
-        <div className="flex flex-row">
-          <Textbox
-            isRequired={false}
-            isLongform={false}
-            label={"Pin Link"}
-            wordcount={500}
-          />
-          <Textbox
-            isRequired={false}
-            isLongform={false}
-            label={"Board"}
-            wordcount={500}
-          />
+        <div className="flex flex-row w-full">
+          <div className="w-1/2">
+            <Dropdown />
+          </div>
+          <div className="w-1/2">
+            <Textbox
+              isRequired={false}
+              isLongform={false}
+              label={"Board"}
+              wordcount={500}
+            />
+          </div>
         </div>
-        <input type="file"></input>
+        {/* <input type="file"></input> */}
       </div>
     </div>
   );
